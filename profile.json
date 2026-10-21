@@ -2,7 +2,7 @@
   "version": 1,
   "login": "KiryxaMeow",
   "seed": "#C24D51",
-  "seedFromAvatar": true,
+  "seedFromAvatar": false,
   "scheme": "tonalSpot",
   "motion": true,
   "iconFill": true,
@@ -13,17 +13,20 @@
     "stack",
     "projects",
     "stats",
-    "streak",
     "wave",
-    "buttons"
+    "buttons",
+    "streak"
   ],
-  "hidden": [],
+  "hidden": [
+    "streak",
+    "stats"
+  ],
   "hero": {
     "greeting": "Hi, I'm",
     "name": "",
-    "subtitle": "Dev from Slovakia. Building some useful tools/scripts",
+    "subtitle": "Dev from Slovakia. Building some custom ROMs and tools.",
     "typing": true,
-    "avatarShape": "cookie12",
+    "avatarShape": "cookie",
     "chips": [
       {
         "icon": "location_on",
@@ -48,11 +51,15 @@
       },
       {
         "icon": "home",
-        "label": "raphael/begonia"
+        "label": "raphael/begonia/bluejay"
       },
       {
         "icon": "favorite",
         "label": "KonataFan"
+      },
+      {
+        "icon": "pets",
+        "label": "Prototype phone enthusiast"
       }
     ]
   },
@@ -71,8 +78,20 @@
             "label": "Python"
           },
           {
+            "icon": "brand:javascript",
+            "label": "Java"
+          },
+          {
+            "icon": "brand:kotlin",
+            "label": "Kotlin"
+          },
+          {
             "icon": "brand:gnubash",
-            "label": "Bash"
+            "label": "Bash/Shell"
+          },
+          {
+            "icon": "brand:cplusplus",
+            "label": "C++"
           }
         ]
       },
@@ -86,6 +105,14 @@
           {
             "icon": "brand:githubactions",
             "label": "GitHub Actions"
+          },
+          {
+            "icon": "brand:linux",
+            "label": "Linux"
+          },
+          {
+            "icon": "brand:github",
+            "label": "Pixel Rom Recovery"
           }
         ]
       }
@@ -93,8 +120,14 @@
   },
   "projects": {
     "source": "pinned",
-    "repos": [],
-    "overrides": {},
+    "repos": [
+      "KiryxaMeow"
+    ],
+    "overrides": {
+      "KiryxaMeow": {
+        "shape": "cookie"
+      }
+    },
     "empty": "No description yet.",
     "fork": "Fork"
   },
@@ -128,8 +161,7 @@
     ],
     "variant": "chip",
     "fill": "tonal",
-    "card": true,
-    "shape": "soft"
+    "card": true
   },
   "buttons": {
     "items": [
