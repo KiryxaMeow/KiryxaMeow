@@ -1,7 +1,7 @@
 {
   "version": 1,
   "login": "KiryxaMeow",
-  "seed": "#C24D51",
+  "seed": "#233750",
   "seedFromAvatar": false,
   "scheme": "tonalSpot",
   "motion": true,
@@ -19,14 +19,15 @@
   ],
   "hidden": [
     "streak",
-    "stats"
+    "stats",
+    "projects"
   ],
   "hero": {
     "greeting": "Hi, I'm",
     "name": "",
     "subtitle": "Dev from Slovakia. Building some custom ROMs and tools.",
-    "typing": true,
-    "avatarShape": "cookie",
+    "typing": false,
+    "avatarShape": "cookie12",
     "chips": [
       {
         "icon": "location_on",
@@ -47,11 +48,7 @@
       },
       {
         "icon": "code",
-        "label": "Mostly Developer"
-      },
-      {
-        "icon": "home",
-        "label": "raphael/begonia/bluejay"
+        "label": "Reverse engineer"
       },
       {
         "icon": "favorite",
@@ -78,6 +75,10 @@
             "label": "Python"
           },
           {
+            "icon": "brand:cplusplus",
+            "label": "C++"
+          },
+          {
             "icon": "brand:javascript",
             "label": "Java"
           },
@@ -88,10 +89,6 @@
           {
             "icon": "brand:gnubash",
             "label": "Bash/Shell"
-          },
-          {
-            "icon": "brand:cplusplus",
-            "label": "C++"
           }
         ]
       },
@@ -107,12 +104,29 @@
             "label": "GitHub Actions"
           },
           {
-            "icon": "brand:linux",
-            "label": "Linux"
+            "icon": "brand:google",
+            "label": "Pixel ROM Recovery"
+          }
+        ]
+      },
+      {
+        "title": "Devices",
+        "items": [
+          {
+            "icon": "brand:apple",
+            "label": "iPhone 14 Pro"
           },
           {
-            "icon": "brand:github",
-            "label": "Pixel Rom Recovery"
+            "icon": "brand:xiaomi",
+            "label": "raphael"
+          },
+          {
+            "icon": "brand:xiaomi",
+            "label": "begonia"
+          },
+          {
+            "icon": "brand:google",
+            "label": "bluejay"
           }
         ]
       }
@@ -120,14 +134,8 @@
   },
   "projects": {
     "source": "pinned",
-    "repos": [
-      "KiryxaMeow"
-    ],
-    "overrides": {
-      "KiryxaMeow": {
-        "shape": "cookie"
-      }
-    },
+    "repos": [],
+    "overrides": {},
     "empty": "No description yet.",
     "fork": "Fork"
   },
@@ -156,7 +164,7 @@
       },
       {
         "icon": "brand:x",
-        "url": "https://x.com/KiryxaTipaXD"
+        "url": "https://x.com/KiryxaMeow"
       }
     ],
     "variant": "chip",
